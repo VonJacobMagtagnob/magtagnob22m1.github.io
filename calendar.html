@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event</title>
+  <link rel="icon" type="image/jpg" href="image/pic3.jpg">
+  <link rel="stylesheet" href="css/calendar.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <div class="header">
+        <div class="img-header">
+            <div class="head-logo">
+                <img src="image/pic3.jpg" alt="Logo">
+            </div>
+            
+        </div>
+        <nav class="Nav">
+            <div class="img-logo">
+              <img src="image/pic3.jpg" alt="Logo">
+            </div>
+            <div class="class">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="new.html">New</li>
+                <li><a href="calendar.html">Event</a></li>
+              </ul>
+        </div>
+            <div class="social-media-reservation">
+              <a href="#" class="social-media-icon">
+                <img src="image/insta.png" alt="Instagram">
+              </a>
+              <a href="#" class="social-media-icon">
+                <img src="image/fb.png" alt="Facebook">
+              </a>
+              <button class="reservation-btn" id="reservation-btn">Make a Reservation</button>
+            </div>
+    </div>
+  </nav>
+<script src="js/nav.js" defer></script>
+<script src="js/rpopup.js" defer></script>
+    </div>
+
+    <div class="calendar-wrapper">
+      <div id="popup-form-container" class="notification">
+        <div id="popup-form" class="new">
+          <h2>Make a Reservation</h2>
+          <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date" min="2023-01-01" max="2030-12-31"><br><br>
+              <label for="time">Time:</label>
+              <input type="time" id="time" name="time"><br><br>
+              <label for="guest-count">Guest Count:</label>
+              <input type="number" id="guest-count" name="guest-count" placeholder="Enter number of guests"><br><br>
+              <input type="submit" value="Make Reservation">
+          </form>
+      </div>
+      
+      
+      
+      <!-- Notification container -->
+      <div id="notification-container1">
+        <!-- Notification -->
+        <div id="notification" class="box">
+          <div class="column">
+            <i class="fas fa-info-circle"></i>
+            <p id="notification-text"></p>
+          </div>
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </div>
+      </div>
+    
+      <script src="js/notification2.js" defer></script>
+</div>
+        <button id="btnPrev" type="button">Prev</button>
+            <button id="btnNext" type="button">Next</button>
+        <div id="divCal"></div>
+      </div>
+ <!--event--> 
+
+ <table class="event-table">
+    <thead>
+      <tr>
+        <th>Event Name</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Location</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody id="event-table-body">
+      <!-- events will be rendered here -->
+    </tbody>
+  </table>
+  
+  <script src="js/calendar.js"></script>
+  <div class="pag3">
+    <!-- Footer section -->
+<footer>
+  <!-- Footer container -->
+  <div class="footer-container">
+    
+    <!-- Visit us section -->
+    <div class="visit-us">
+      <h4>VISIT US:</h4>
+      <!-- Address -->
+      <p>123 Delicious Avenue, Flavorsville</p>
+      <p>Metro Manila, Philippines</p>
+    </div>
+    
+    <!-- Hours section -->
+    <div class="hours">
+      <h4>HOURS</h4>
+      <!-- Dining and takeout/delivery information -->
+      <p>DINING & TAKEOUT/DELIVERY</p>
+      <!-- Hours for each day of the week -->
+      <p>MONDAY  - THURSDAY  11:30 - 9:00</p>
+      <p>FRIDAY - SATURDAY  11:30 - 10:00</p>
+      <p>SUNDAY  11:30 - 9:00</p>
+    </div>
+    
+    <!-- Social media section -->
+    <div class="social">
+      <h4>LET’S GET SOCIAL</h4>
+      <!-- Social media logo container -->
+      <div class="slogo">
+        <!-- Instagram link -->
+        <a href="#" class="social-media-icon">
+          <img src="image/insta.png" alt="Instagram">
+        </a>
+        <!-- Facebook link -->
+        <a href="#" class="social-media-icon">
+          <img src="image/fb.png" alt="Facebook">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="Creator">
+    <p>Designed by Magtagñob, Von Jacob M.</p>
+    <p>BSIT-22M1 for ICT 008 Final Project</p>
+  </div>
+</footer>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/animation.js"></script>
+</body>
+</html>

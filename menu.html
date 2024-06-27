@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" type="image/jpg" href="image/pic3.jpg">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <div class="header">
+        <div class="img-header">
+            <div class="head-logo">
+                <img src="image/pic3.jpg" alt="Logo">
+            </div>
+            
+        </div>
+        <nav class="Nav">
+            <div class="img-logo">
+              <img src="image/pic3.jpg" alt="Logo">
+            </div>
+            <div class="class">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="new.html">New</li>
+                <li><a href="calendar.html">Events</a></li>
+              </ul>
+        </div>
+            <div class="social-media-reservation">
+              <a href="#" class="social-media-icon">
+                <img src="image/insta.png" alt="Instagram">
+              </a>
+              <a href="#" class="social-media-icon">
+                <img src="image/fb.png" alt="Facebook">
+              </a>
+              <button class="reservation-btn" id="reservation-btn">Make a Reservation</button>
+                </div>
+        </div>
+      </nav>
+    <script src="js/nav.js" defer></script>
+    <script src="js/rpopup.js" defer></script>
+    </div>
+
+
+
+    <div class="MPage">
+      <div id="popup-form-container" class="notification">
+        <div id="popup-form" class="new">
+          <h2>Make a Reservation</h2>
+          <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date" min="2023-01-01" max="2030-12-31"><br><br>
+              <label for="time">Time:</label>
+              <input type="time" id="time" name="time"><br><br>
+              <label for="guest-count">Guest Count:</label>
+              <input type="number" id="guest-count" name="guest-count" placeholder="Enter number of guests"><br><br>
+              <input type="submit" value="Make Reservation">
+          </form>
+      </div>
+      
+      
+      
+      <!-- Notification container -->
+      <div id="notification-container1">
+        <!-- Notification -->
+        <div id="notification" class="box">
+          <div class="column">
+            <i class="fas fa-info-circle"></i>
+            <p id="notification-text"></p>
+          </div>
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </div>
+      </div>
+    
+      <script src="js/notification2.js" defer></script>
+</div>
+  <h2 class="big-menu-category">Our Menu</h1>
+
+  <h2 class="menu-category">BreakFast</h2>
+
+     <div class="profile-stack">
+
+  <div class="profile-breakfast">
+    <img src="image/picb1.jpg" alt="BreakFast">
+    <h2>Croissant with Milk</h2>
+    <p>$4.50</p>
+    <p>Freshly baked croissant served with a cold glass of milk.</p>
+  </div>
+
+  <div class="profile-breakfast">
+    <img src="image/picb2.jpg" alt="BreakFast">
+    <h2>Croissant with Coffee</h2>
+    <p>$5.00</p>
+    <p>Flaky croissant paired with a rich and bold cup of coffee.</p>
+  </div>
+  <div class="profile-breakfast">
+    <img src="image/picb4.jpg" alt="BreakFast">
+    <h2>Croissant with Dip Choco and Orange</h2>
+    <p>$6.50</p>
+    <p>Decadent croissant dipped in rich chocolate and orange sauce, perfect for a sweet treat.</p>
+  </div>
+  <div class="profile-breakfast">
+    <img src="image/picb3.jpg" alt="BreakFast">
+    <h2>Waffle Hotcake with Bacon and Egg</h2>
+    <p>$9.00</p>
+    <p>Fluffy waffle hotcake topped with crispy bacon, scrambled eggs, and a side of maple syrup.</p>
+  </div>
+</div>
+
+  <h2 class="menu-category">Lunch</h2>
+
+    
+      <div class="profile-stack">
+
+        <div class="profile-lunch">
+          <img src="image/picl4.jpg" alt="Lunch">
+          <h2 class="menu-item">Tuna Delight</h2>
+          <p class="menu-price">$18.00</p>
+          <p class="menu-description">Fresh tuna steak served with baked fruit and chest nut, a perfect combination of flavors and textures.</p>
+        </div>
+    
+
+        <div class="profile-lunch">
+          <img src="image/picl3.jpg" alt="Lunch">
+          <h2 class="menu-item">Sweet Spaghetti</h2>
+          <p class="menu-price">$12.50</p>
+          <p class="menu-description">Classic spaghetti dish smothered in a sweet and tangy tomato sauce, topped with a sprinkle of parmesan cheese.</p>
+        </div>
+      
+    
+        <div class="profile-lunch">
+          <img src="image/picl2.jpg" alt="Lunch">
+          <h2 class="menu-item">Mega Burger</h2>
+          <p class="menu-price">$15.00</p>
+          <p class="menu-description">Juicy beef burger topped with lettuce, tomato, and cheese, served with a side of fries and a glass of ice tea.</p>
+        </div>
+    
+
+    
+        <div class="profile-lunch">
+          <img src="image/picl1.jpg" alt="Lunch">
+          <h2 class="menu-item">Family Buffet Meal</h2>
+          <p class="menu-price">$30.00</p>
+          <p class="menu-description">A variety of dishes including dumplings, fried tuna, garlic fried chicken, and double tacos, served with a side of rice and drinks.</p>
+        </div>
+      </div>
+   
+ 
+
+
+  <h2 class="menu-category">Dinner</h2>
+
+      <div class="profile-stack">
+        <div class="profile-dinner">
+          <img src="image/picd1.jpg" alt="Dinner">
+          <h2 class="menu-item">Garlic Baked Lobster</h2>
+          <p class="menu-price">$45.00</p>
+          <p class="menu-description">Fresh lobster tail baked to perfection with a rich garlic butter sauce, served with a side of lemon wedges.</p>
+        </div>
+
+        <div class="profile-dinner">
+          <img src="image/picd2.jpg" alt="Dinner">
+          <h2 class="menu-item">A5 Wagyu Medium Rare</h2>
+          <p class="menu-price">$60.00</p>
+          <p class="menu-description">Tender and juicy A5 Wagyu beef cooked to medium rare, served with a side of sautéed mushrooms and truffle oil.</p>
+        </div>
+
+
+        <div class="profile-dinner">
+          <img src="image/picd3.jpg" alt="Dinner">
+          <h2 class="menu-item">Roasted A5 Meat with Vegetables</h2>
+          <p class="menu-price">$55.00</p>
+          <p class="menu-description">Roasted A5 Wagyu beef served with a selection of roasted vegetables, including asparagus, bell peppers, and zucchini, finished with a drizzle of balsamic glaze.</p>
+        </div>
+
+        
+        <div class="profile-dinner">
+          <img src="image/picd4.jpg" alt="Dinner">
+          <h2 class="menu-item">Roasted Tuna Steak</h2>
+          <p class="menu-price">$35.00</p>
+          <p class="menu-description">Fresh tuna steak roasted to perfection with a hint of lemon and herbs, served with a side of quinoa and steamed broccoli.</p>
+        </div>
+      </div>
+
+
+  <h2 class="menu-category">Beverage</h2>
+
+      <div class="profile-stack">
+        <div class="profile-beverage">
+          <img src="image/picbb1.jpg" alt="Beverage">
+          <h2 class="menu-item">Sunrise Spritzer</h2>
+          <p class="menu-price">$4.50</p>
+          <p class="menu-description">A refreshing blend of orange juice, sparkling water, and a splash of grenadine, served over ice with a slice of orange.</p>
+        </div>
+
+        <div class="profile-beverage">
+          <img src="image/picbb2.jpg" alt="Beverage">
+          <h2 class="menu-item">Creamsicle Dream</h2>
+          <p class="menu-price">$5.00</p>
+          <p class="menu-description">A creamy and dreamy orange smoothie made with fresh orange juice, vanilla ice cream, and a hint of citrus zest.</p>
+        </div>
+
+        <div class="profile-beverage">
+          <img src="image/picbb3.jpg" alt="Beverage">
+          <h2 class="menu-item">Orange You Glad It's Iced Tea?</h2>
+          <p class="menu-price">$3.50</p>
+          <p class="menu-description">A soothing and citrusy iced tea infused with orange peel and a touch of honey, served over ice with a slice of orange.</p>
+        </div>
+
+        <div class="profile-beverage">
+          <img src="image/picbb4.jpg" alt="Beverage">
+          <h2 class="menu-item">Tangerine Twist</h2>
+          <p class="menu-price">$6.00</p>
+          <p class="menu-description">A tangy and revitalizing tangerine margarita made with tequila, lime juice, and a splash of orange liqueur, served in a salt-rimmed glass.</p>
+        </div>
+      </div>
+
+
+
+
+<h2 class="menu-category">Dessert</h2>
+
+  <div class="menu-list">
+
+      <div class="profile-stack">
+        <div class="profile-breakfast">
+          <img src="image/picds1.jpg" alt="Chocolate Moose">
+          <h2 class="menu-item">Chocolate Moose Deluxe</h2>
+          <p class="menu-price">$8.50</p>
+          <p class="menu-description">A rich and creamy chocolate moose cake, topped with a velvety chocolate ganache and served with a side of whipped cream and chocolate shavings.</p>
+        </div>
+
+        <div class="profile-breakfast">
+          <img src="image/picds2.jpg" alt="Crown Cherry">
+          <h2 class="menu-item">Crown Cherry Deluxe</h2>
+          <p class="menu-price">$9.00</p>
+          <p class="menu-description">A decadent cherry tart, topped with a crown of caramelized sugar and served with a scoop of vanilla ice cream and a drizzle of chocolate sauce.</p>
+        </div>
+
+        <div class="profile-breakfast">
+          <img src="image/picds3.jpg" alt="Glass of Cream">
+          <h2 class="menu-item">Glass of Cream Chocolate Deluxe</h2>
+          <p class="menu-price">$7.50</p>
+          <p class="menu-description">A luxurious glass of creamy chocolate mousse, topped with whipped cream and chocolate shavings, served chilled and perfect for indulging.</p>
+        </div>
+
+        <div class="profile-breakfast">
+          <img src="image/picds4.jpg" alt="Tangerine Jelly">
+          <h2 class="menu-item">Tangerine Jelly Deluxe</h2>
+          <p class="menu-price">$8.00</p>
+          <p class="menu-description">A refreshing and tangy tangerine jelly dessert, served with a side of shortbread cookies and a dollop of whipped cream, perfect for a sweet and citrusy treat.</p>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div class="pag3">
+      <footer>
+          <div class="footer-container">
+            <div class="visit-us">
+              <h4>VISIT US:</h4>
+              <p>123 Delicious Avenue, Flavorsville</p>
+              <p>Metro Manila, Philippines</p>
+            </div>
+            <div class="hours">
+              <h4>HOURS</h4>
+              <p>DINING & TAKEOUT/DELIVERY</p>
+              <p>MONDAY  - THURSDAY  11:30 - 9:00</p>
+              <p>FRIDAY - SATURDAY  11:30 - 10:00</p>
+              <p>SUNDAY  11:30 - 9:00</p>
+            </div>
+            <div class="social">
+              <h4>LET’S GET SOCIAL</h4>
+              <div class="slogo">
+                  <a href="#" class="social-media-icon">
+                      <img src="image/insta.png" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-media-icon">
+                      <img src="image/fb.png" alt="Facebook">
+                    </a>
+              </div>
+            </div>
+          </div>
+          <div class="Creator">
+            <p>Designed by Magtagñob, Von Jacob M.</p>
+            <p>BSIT-22M1 for ICT 008 Final Project</p>
+          </div>
+        </footer>
+  </div>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>
