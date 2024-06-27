@@ -1,0 +1,201 @@
+
+.MPage {
+    background-image: url(../image/bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .menu-category {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .profile-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  
+  .profile-breakfast {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border: 3px solid #ec2626;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-breakfast:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-breakfast img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .profile-breakfast h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .profile-breakfast p {
+    font-size: 14px;
+    color: #666;
+  }
+
+
+  .profile-dinner {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border: 3px solid #ec2626;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  .profile-dinner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-dinner img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .profile-dinner h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .profile-dinner p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .profile-lunch {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border: 3px solid #ec2626;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-lunch:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-lunch img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .profile-lunch h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .profile-lunch p {
+    font-size: 14px;
+    color: #666;
+  }
+  .profile-dessert {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border: 3px solid #ec2626;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-dessert:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-dessert img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .profile-dessert h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .profile-dessert p {
+    font-size: 14px;
+    color: #666;
+  }
+  .profile-beverage {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border: 3px solid #ec2626;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-beverage:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-beverage img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .profile-beverage h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .profile-beverage p {
+    font-size: 14px;
+    color: #666;
+  }
+

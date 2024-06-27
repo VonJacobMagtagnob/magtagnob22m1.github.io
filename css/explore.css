@@ -1,0 +1,37 @@
+
+  
+.explore-container {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Add this line to make the font color white */
+  }
+  
+  .explore-item {
+    color: #FFA07A;
+    margin-bottom: 20px;
+  }
+  
+  
+  .explore-item h2 {
+    color: #FFA07A;
+    font-weight: bold;
+    font-size: 45px;
+
+  }
+  
+  .explore-container {
+    background-color: #000;
+    color: #d64309f6;
+    font-size: 30px;
+  }
+  
+  .explore-item h2 {
+    border-bottom: 2px solid #FFA07A;
+  }
+  
+  .explore-item img {
+    box-shadow: 0 0 10px rgba(255, 160, 122, 0.5);
+    height: 400px;
+    width: 50%;
+  }
